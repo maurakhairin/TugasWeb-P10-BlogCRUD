@@ -1,5 +1,4 @@
 # Tugas Rutin 10 — Blog CRUD Laravel
-
 Implementasi CRUD Blog Laravel sesuai requirement **Tugas Pertemuan 10**.
 
 ## 📋 Checklist Requirement Wajib
@@ -127,4 +126,3 @@ TugasWeb-P10-BlogCRUD/
 - **Validasi ditulis langsung di controller** (`$request->validate()`), bukan di kelas Form Request terpisah. Tujuannya supaya semua logika satu fitur (validasi, simpan, redirect) ada di satu tempat yang sama — lebih gampang dibaca dan diedit untuk tugas kuliah.
 - **Komentar di `PostController.php` diberi label `[1]` sampai `[7]`** supaya gampang dicocokkan urutannya dengan requirement resource controller.
 - Kalau butuh nilai tambahan, kamu bisa kembangkan: halaman khusus untuk lihat/restore postingan yang di-soft-delete, atau validasi `unique` untuk judul.
-# TugasWeb-P10-BlogCRUD
